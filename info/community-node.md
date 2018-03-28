@@ -1,4 +1,4 @@
-## Community
+## Community Node
 Kamina will be divided in communities, each completely independent from the rest. Just like diaspora or gnu-social, in which you have to download software in order to create a new “instance” or “pod”, one will 
 have to do the same with Kamina.  
 In each -community anyone can enter and leave a comment or create a new thread, you can even create a temporary identification, but if you want to be able to save the identity information and the possibility of chatting with other users, you have to create an account in that -community.  
