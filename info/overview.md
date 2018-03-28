@@ -1,6 +1,6 @@
 # Overview
 
-Like it was said in the home page, Kamina is a decentralized social network that uses IPFS at its core. With that in mind we have decided to divide Kamina in 3 sub-projects:
+Like it was said in the home page, Kamina is a decentralized social network that uses IPFS at its core (it can be disabled in each project configuration file). With that in mind we have decided to divide Kamina in 3 sub-projects:
  
 * [Community Node](./community-node.md)
 * [User Node](./user-node.md)
