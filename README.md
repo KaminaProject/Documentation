@@ -36,23 +36,23 @@ We chose Python3 because it is cross platform, easy to learn and work with, and 
 
 *Kamina* will be split into 3 separate components that will communicate with each other. 
 
-- *Kamina Community*
-- *Kamina User*
-- *Kamina Search*
+- ***Kamina Community***
+- ***Kamina User***
+- ***Kamina Search***
 
-The APIs for each component will be implemented in Flask and the front end of each will be implemented using VueJS.
+The APIs for each component will be implemnted in Flask and the front end of each will be implemented using VueJS.
 
 
 ### Kamina Community
-*Kamina Community* is, as the name suggests, where all the users interact and communicate. 
-- Each *Kamina Community* instance has a single, broad or otherwise, discussion topic much in the same way you can have 
+***Kamina Community*** is, as the name suggests, where all the users interact and communicate. 
+- Each ***Kamina Community*** instance has a single, broad or otherwise, discussion topic much in the same way you can have 
 groups for different topics and interests on Facebook and other social networks. 
 
--Anyone can access and start using a *Kamina Community* instance, but the user is be limited to what it can do. In 
-order to access all the functionality of the instance, the user has to register into that community. The registration 
-requires the user to download and start a *Kamina User* instance on their device.
+- Anyone can access and start using a ***Kamina Community*** instance, but the user is be limited to what it can do. 
+    + In order to access all the functionality of the instance, the user has to register into that community. 
+    + The registration requires the user to download and start a ***Kamina User*** instance on their device.
 
-This is an example of what a *Kamina Community* instance would look like.
+This is an example of what a ***Kamina Community*** instance would look like.
    
 ![community-preview](./img/preview.png)
 
@@ -64,19 +64,19 @@ This is where all the user information is stored and managed.
 - In order to give the user full control over their information, the information is stored on the user's device.
 
 - The user must download and initialize a user instance on their device and can then register into any existing 
-*Kamina Community* instance. 
+***Kamina Community*** instance. 
 
-- The instance exposes an API for the *Kamina Community* instance to exchange information with.
+- The instance exposes an API for the ***Kamina Community*** instance to exchange information with.
 
 ### Kamina Search
 
-*Kamina Search* is a system allows the user to access information from a *Kamina Community* instance.
+***Kamina Search*** is a system allows the user to access information from a ***Kamina Community*** instance.
 
-- It stores backup data from *Kamina Community* instances in case the data disappears. 
+- It stores backup data from ***Kamina Community*** instances in case the data disappears. 
 
 - Works similar to Mastodon search instances. [search page](https://instances.social/list#lang=&allowed=&prohibited=&users=)
 
-- The user can access the content of a *Kamina Community* up until the date of the creation of the backup stored. 
+- The user can access the content of a ***Kamina Community*** up until the date of the creation of the backup stored. 
 
 
 ## How to contribute
