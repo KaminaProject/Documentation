@@ -1,13 +1,15 @@
 # Kamina
 
 
+[](logo/kamina_logo.svg)
 
-![community-preview](logo/kamina_logo.svg)
-
+[//]: # (This and the logo line are comments for Ziad to uncomment when he edits because)
+[//]: # (he likes to see the pretty logo in pycharm when he edits the docs uwu )
 
 <p align="center">
-	Nice logo amirite.
+	<img src="logo/kamina_logo.svg" width="400" align="middle"/>
 </p>  
+<small>Nice logo amirite.</small>
 
 ## Overview
 **Kamina** is an IPFS-based, decentralized social network with free speech in mind...
@@ -17,11 +19,10 @@ The social network is divided into communities, each with it's independent gover
 ## Vision
 We want to develop a decentralized social network, that gives control to its users over their own personal information.
 Our decision to start this idea stemmed from many events in which facebook has been mistreating our personal data, the 
-Cambridge Analytica incident being an example, however it is safe to say the fact that Facebook has been selling all our
-data to advertisers and the general fact that centralized services that are not paid for tend to use this business model
-is plenty reason to want a decentralized alternative. Many similar products have been made to replace other services in
-this same manner.  
-
+Cambridge Analytica incident being an example, however, it is safe to say that the fact that Facebook has been 
+selling all our data to advertisers and the general idea that centralized services that are not paid for tend to use 
+this business model is plenty reason to want a decentralized alternative. Many similar products have been made to 
+replace other services in this same manner.  
 
 
 ## Design Decisions and Technicalities
@@ -47,26 +48,35 @@ The APIs for each component will be implemented in Flask and the front end of ea
 - Each *Kamina Community* instance has a single, broad or otherwise, discussion topic much in the same way you can have 
 groups for different topics and interests on Facebook and other social networks. 
 
--Anyone can access and start using a *Kamina Community* instance, but the user will be limited to what it can do. In 
-order to access all the functionality, the instance has, the user has to register into that community. The registration requires the user to download and start a *Kamina User* 
-instance in its pc. Have a sneak peek of what a *Kamina Community* instance would look like.
+-Anyone can access and start using a *Kamina Community* instance, but the user is be limited to what it can do. In 
+order to access all the functionality of the instance, the user has to register into that community. The registration 
+requires the user to download and start a *Kamina User* instance on their device.
+
+This is an example of what a *Kamina Community* instance would look like.
    
 ![community-preview](./img/preview.png)
 
-This design could change in the future though, caveat emptor.
 
 ### Kamina User
-Hey, we said the user would be in control of its information, that is why the user's information will be stored in their computers! they 
-to download some software for that though. After the user downloads and initializes the instance, it can register into any existing
-*Kamina Community* instances. This software that the user will download will expose an API the *Kamina Community* instance can use in order to exchange information.  
-Though, because the user has to instance running in a device, it will only be possible to login/register in that device because the
-*Kamina Community* instance will only be able to communicate with *localhost*. One way to circumvent this problem is to give
-the *Kamina Community* instance an IP or domain to connect.
+
+This is where all the user information is stored and managed.
+
+- In order to give the user full control over their information, the information is stored on the user's device.
+
+- The user must download and initialize a user instance on their device and can then register into any existing 
+*Kamina Community* instance. 
+
+- The instance exposes an API for the *Kamina Community* instance to exchange information with.
 
 ### Kamina Search
-*Kamina Search* will be in charge of combining both *Kamina Community* and *Kamina User* instances. In will work like this
-Mastodon instances [search page](https://instances.social/list#lang=&allowed=&prohibited=&users=). But *Kamina Search* will also store backup information from *Kamina Community* instances, in case any of them disappear.  
-This way, any user can access the content of a *Kamina Community* up until the date of the creation of the backup.
+
+*Kamina Search* is a system allows the user to access information from a *Kamina Community* instance.
+
+- It stores backup data from *Kamina Community* instances in case the data disappears. 
+
+- Works similar to Mastodon search instances. [search page](https://instances.social/list#lang=&allowed=&prohibited=&users=)
+
+- The user can access the content of a *Kamina Community* up until the date of the creation of the backup stored. 
 
 
 ## How to contribute
