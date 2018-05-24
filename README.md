@@ -83,7 +83,7 @@ This is where all the user information is stored and managed.
 
 
 ### Getting Started
-* Create or using an existing GitHub account. 
+* Create a GitHub account or use an exsting one. 
 * Create an issue in the corresponding project (community, user, search, etc.) if one does not already exist.
 	- Clearly describe the issue including steps to reproduce if it is a bug.
 	- Make sure to add the earliest version that contains that issue.
