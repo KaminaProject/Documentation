@@ -1,6 +1,5 @@
 # Kamina
 
-
 [](logo/kamina_logo.svg)
 
 [//]: # (This and the logo line are comments for Ziad to uncomment when he edits because)
@@ -32,15 +31,13 @@ being in its infancy, is a good option to store information for *Kamina*.
 
 We chose Python3 because it is cross platform, easy to learn and work with, and has a large community.
 
-
-
 *Kamina* will be split into 3 separate components that will communicate with each other. 
 
 - ***Kamina Community***
 - ***Kamina User***
 - ***Kamina Search***
 
-The APIs for each component will be implemnted in Flask and the front end of each will be implemented using VueJS.
+The APIs for each component will be implemented in Flask and the front end of each will be implemented using VueJS.
 
 
 ### Kamina Community
