@@ -13,23 +13,19 @@
 ## Overview
 **Kamina** is an IPFS-based, decentralized social network with free speech in mind...
  
-The social network is divided into communities, each with it's independent governing system.
+The social network is divided into communities, each with its independent governing system.
 
 ## Vision
 We want to develop a decentralized social network, that gives control to its users over their own personal information.
-Our decision to start this idea stemmed from many events in which facebook has been mistreating our personal data, the 
-Cambridge Analytica incident being an example, however, it is safe to say that the fact that Facebook has been 
-selling all our data to advertisers and the general idea that centralized services that are not paid for tend to use 
-this business model is plenty reason to want a decentralized alternative. Many similar products have been made to 
-replace other services in this same manner.  
+Our decision to start this idea stemmed from many events in which Facebook has been mistreating our personal data, the 
+Cambridge Analytica incident being an example, however, it is safe to say that the fact that Facebook has been selling all our data to advertisers and the general idea that centralized services that are not paid for tend to use 
+this business model is plenty reason to want a decentralized alternative. Many similar products have been made to replace other services in this same manner.  
 
 
 ## Design Decisions and Technicalities
-*Kamina* aims to be as decentralized as possible without becoming a full-blown 'distributed system'. After 
-analyzing the possible technologies that could help us reach this objective, we've found out that **IPFS**, while still 
-being in its infancy, is a good option to store information for *Kamina*. 
+*Kamina* aims to be as decentralized as possible without becoming a full-blown 'distributed system'. After analyzing the possible technologies that could help us reach this objective, we've found out that **IPFS**, while still being in its infancy, is a good option to store information for *Kamina*. 
 
-We chose Python3 because it is cross platform, easy to learn and work with, and has a large community.
+We chose Python3 because it is cross-platform, easy to learn and work with, and has a large community.
 
 *Kamina* will be split into 3 separate components that will communicate with each other. 
 
@@ -42,8 +38,7 @@ The APIs for each component will be implemented in Flask and the front end of ea
 
 ### Kamina Community
 ***Kamina Community*** is, as the name suggests, where all the users interact and communicate. 
-- Each ***Kamina Community*** instance has a single, broad or otherwise, discussion topic much in the same way you can have 
-groups for different topics and interests on Facebook and other social networks. 
+- Each ***Kamina Community*** instance has a single, broad or otherwise, discussion topic much in the same way you can have groups for different topics and interests on Facebook and other social networks. 
 
 - Anyone can access and start using a ***Kamina Community*** instance, but the user is be limited to what it can do. 
     + In order to access all the functionality of the instance, the user has to register into that community. 
@@ -78,9 +73,8 @@ This is where all the user information is stored and managed.
 
 ## How to contribute
 
-
 ### Getting Started
-* Create a GitHub account or use an exsting one. 
+* Create a GitHub account or use an existing one. 
 * Create an issue in the corresponding project (community, user, search, etc.) if one does not already exist.
 	- Clearly describe the issue including steps to reproduce if it is a bug.
 	- Make sure to add the earliest version that contains that issue.
