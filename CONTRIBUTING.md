@@ -1,11 +1,7 @@
 # How to contribute
-Third-party changes are essential in order for kamina to improve. We simply don't have access 
-to every platform in existance, so we want to keep it simple for you to contribute patches that
-get things working in your environment. There are a few guidelines before you can start making
-pull requests.
 
 ## Getting Started
-* Make sure you have a github account.
+* Create a GitHub account or use an existing one. 
 * Create an issue in the corresponding project (community, user, search, etc.) if one does not already exist.
 	- Clearly describe the issue including steps to reproduce if it is a bug.
 	- Make sure to add the earliest version that contains that issue.
