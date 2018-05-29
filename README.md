@@ -96,7 +96,7 @@ This is where all the user information is stored and managed.
 #### Submitting Changes To The Documentation. 
 
 * Before making changes to the docs please take a quick look at our seperate guidelines for making changes to the docs.
-* [Docs Guidelines](Documentation/info/DOCSGUIDELINES.md)
+* [Docs Guidelines](info/DOCSGUIDELINES.md)
 
 ### Additional Resources
 * [pylint](https://www.pylint.org/)
