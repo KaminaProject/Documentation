@@ -93,6 +93,11 @@ This is where all the user information is stored and managed.
 * Submit a pull request to the project's repository.
 * If after 2 weeks of giving feedback there is no activity, the pull request will be closed.
 
+#### Submitting Changes To The Documentation. 
+
+* Before making changes to the docs please take a quick look at our seperate guidelines for making changes to the docs.
+* [Docs Guidelines](info/DOCSGUIDELINES.md)
+
 ### Additional Resources
 * [pylint](https://www.pylint.org/)
 * [PEP 8](https://www.python.org/dev/peps/pep-0008/)
